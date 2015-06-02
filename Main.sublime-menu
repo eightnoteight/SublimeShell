@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "T",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "SublimeShell",
+                "mnemonic": "S",
+                "id": "root",
+                "children": [
+                    {"command": "sublime_shell", "caption": "Shell Interface"}
+                    {"command": "sublime_shell", "caption": "Special Shell Interface", "args": {"panel": true}}
+                ]
+            }
+        ]
+    },
+]
